@@ -1,0 +1,116 @@
+body {
+    background-color: #a5f2e7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85em;
+    color: rgba(66,66,66 ,1);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 75%;
+    background-color: #f1fcfc;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 15px;
+}
+
+/*Make the width of both 50% i.e half and equal.*/
+section, form {
+    width: 50%;
+    padding: 50px 70px;
+  }
+  
+section {
+    line-height: 1.7;
+    text-align: center;
+}
+
+p {
+    text-indent: 22px;
+    line-height: 1.8 /* change this to a higher value like 2 0r 3 to see the difference*/
+  }
+
+  /* Styling the sign up form*/
+  .flexy{
+    display: flex;
+    margin: 30px 0;
+    align-items: center;
+  }
+
+  section, form {
+    width: 50%;
+    padding: 50px;
+  }
+  
+  p, input::placeholder {
+    font-size: 12px;
+  }
+
+  form {
+    border-left: 0.5px solid #333333;
+
+  } 
+
+  /*Making the email and password fields neater*/
+  .space {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .space input {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 8px;
+    margin-bottom: 20px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    transition: border-bottom .3s linear;
+  }
+
+  .space input:focus {
+    outline: none;
+    border-bottom-color: #ffffff ;
+  }
+
+  p, span {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 1);
+  }
+
+  /*Reduce the width of the image*/
+  img {
+    margin: 0 auto;
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+  .button {
+    display: block;
+    color: white;
+    font-size: 1em;
+    padding: 10px 24px;
+    background-color : #0D3B66;
+    margin-top: 40px;
+    border-radius: 24px;
+    border: 2px solid #0D3B66;
+    
+  }
+
+  /*.divider {
+    background: #DDDDDD;
+	bottom: 0;
+	content: " ";
+	margin-left: 450px;
+	position: absolute;
+	top: 3;
+	width: 1px;
+}
